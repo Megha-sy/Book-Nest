@@ -1,0 +1,784 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "price": 399,
+      "category": "Fiction",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/the-silent-patient-by-alex-michaelides-celadon-pdf.webp"
+    },
+    {
+      "id": "2",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 450,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/AtomicHabits.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "price": 699,
+      "category": "Fiction",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Harry Potter and the Sorcerer's Stone.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "price": 350,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Rich Dad Poor Dad.webp"
+    },
+    {
+      "id": "5",
+      "title": "The Power of Habit",
+      "author": "Charles Duhigg",
+      "price": 420,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/the power of habit book.png"
+    },
+    {
+      "id": "6",
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "price": 300,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Think and Grow Rich.jpg"
+    },
+    {
+      "id": "7",
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen R. Covey",
+      "price": 499,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/The 7 Habits of Highly Effective People.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "price": 550,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Deep Work.webp"
+    },
+    {
+      "id": "9",
+      "title": "Can't Hurt Me",
+      "author": "David Goggins",
+      "price": 600,
+      "category": "Biographies & Autobiographies",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Can't Hurt Me.jpg"
+    },
+    {
+      "id": "10",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 350,
+      "category": "Fiction",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/The Alchemist.webp"
+    },
+    {
+      "id": "11",
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "price": 400,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/dda49596da8c278bcd05f2cc9291c45e.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Ikigai",
+      "author": "Héctor García",
+      "price": 320,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Ikigai.jpg"
+    },
+    {
+      "id": "13",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "price": 720,
+      "category": "Fiction",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Dune.jpg"
+    },
+    {
+      "id": "14",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "price": 680,
+      "category": "Fiction",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/The Hobbit.jpg"
+    },
+    {
+      "id": "15",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "price": 750,
+      "category": "Non-Fiction",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Sapiens A Brief History of Humankind.png"
+    },
+    {
+      "id": "16",
+      "title": "Educated",
+      "author": "Tara Westover",
+      "price": 500,
+      "category": "Biographies & Autobiographies",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Educated.webp"
+    },
+    {
+      "id": "17",
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "price": 650,
+      "category": "Biographies & Autobiographies",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Becoming.jpg"
+    },
+    {
+      "id": "18",
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "price": 450,
+      "category": "Fiction",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/The-Midnight-Library-By-Matt-Haig..jpg"
+    },
+    {
+      "id": "19",
+      "title": "A Promised Land",
+      "author": "Barack Obama",
+      "price": 799,
+      "category": "Biographies & Autobiographies",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/A-Promised-Land-Book-by-Barack-Obama.webp"
+    },
+    {
+      "id": "20",
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "price": 550,
+      "category": "Non-Fiction",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/The Psychology of Money.png"
+    },
+    {
+      "id": "21",
+      "title": "Man's Search for Meaning",
+      "author": "Viktor E. Frankl",
+      "price": 370,
+      "category": "Non-Fiction",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Man's Search for Meaning.webp"
+    },
+    {
+      "id": "22",
+      "title": "Good Vibes, Good Life",
+      "author": "Vex King",
+      "price": 400,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Good Vibes, Good Life.jpg"
+    },
+    {
+      "id": "23",
+      "title": "Outliers",
+      "author": "Malcolm Gladwell",
+      "price": 480,
+      "category": "Non-Fiction",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/by Malcolm Gladwell.jpg"
+    },
+    {
+      "id": "24",
+      "title": "Born a Crime",
+      "author": "Trevor Noah",
+      "price": 520,
+      "category": "Biographies & Autobiographies",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Born a Crime.webp"
+    },
+    {
+      "id": "25",
+      "title": "The Four Agreements",
+      "author": "Don Miguel Ruiz",
+      "price": 340,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/by Don Miguel Ruiz.jpg"
+    },
+    {
+      "id": "26",
+      "title": "Randamoozham",
+      "author": "M.T. Vasudevan Nair",
+      "price": 400,
+      "category": "Fiction",
+      "language": "Malayalam",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Randamoozham.jpg"
+    },
+    {
+      "id": "27",
+      "title": "Balyakalasakhi",
+      "author": "Vaikom Muhammad Basheer",
+      "price": 250,
+      "category": "Fiction",
+      "language": "Malayalam",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Balyakalasakhi.webp"
+    },
+    {
+      "id": "28",
+      "title": "Kayar",
+      "author": "Thakazhi Sivasankara Pillai",
+      "price": 500,
+      "category": "Fiction",
+      "language": "Malayalam",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/kayar.jpg"
+    },
+    {
+      "id": "29",
+      "title": "Ente Katha",
+      "author": "Kamala Surayya",
+      "price": 300,
+      "category": "Biographies & Autobiographies",
+      "language": "Malayalam",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Ente Katha.jpg"
+    },
+    {
+      "id": "30",
+      "title": "Naalukettu",
+      "author": "M.T. Vasudevan Nair",
+      "price": 350,
+      "category": "Fiction",
+      "language": "Malayalam",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Naalukettu.webp"
+    },
+    {
+      "id": "31",
+      "title": "Oru Desathinte Katha",
+      "author": "S.K. Pottekkatt",
+      "price": 380,
+      "category": "Fiction",
+      "language": "Malayalam",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Oru Desathinte Katha.webp"
+    },
+    {
+      "id": "32",
+      "title": "Pathummayude Aadu",
+      "author": "Vaikom Muhammad Basheer",
+      "price": 220,
+      "category": "Fiction",
+      "language": "Malayalam",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Pathummayude Aadu.webp"
+    },
+    {
+      "id": "33",
+      "title": "Aarachar",
+      "author": "K.R. Meera",
+      "price": 450,
+      "category": "Fiction",
+      "language": "Malayalam",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Aarachar.jpg"
+    },
+    {
+      "id": "34",
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "price": 1200,
+      "category": "Academic & Educational",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Introduction to Algorithms.jpg"
+    },
+    {
+      "id": "35",
+      "title": "Physics for Scientists and Engineers",
+      "author": "Raymond A. Serway",
+      "price": 950,
+      "category": "Academic & Educational",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Physics for Scientists and Engineers.webp"
+    },
+    {
+      "id": "36",
+      "title": "Advanced Mathematics",
+      "author": "R.D. Sharma",
+      "price": 800,
+      "category": "Academic & Educational",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Advanced Mathematics.png"
+    },
+    {
+      "id": "37",
+      "title": "Charlotte's Web",
+      "author": "E.B. White",
+      "price": 300,
+      "category": "Children's Books",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Charlotte's Web.jpg"
+    },
+    {
+      "id": "38",
+      "title": "The Very Hungry Caterpillar",
+      "author": "Eric Carle",
+      "price": 250,
+      "category": "Children's Books",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/The Very Hungry Caterpillar.webp"
+    },
+    {
+      "id": "39",
+      "title": "Matilda",
+      "author": "Roald Dahl",
+      "price": 350,
+      "category": "Children's Books",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Matilda.jpg"
+    },
+    {
+      "id": "40",
+      "title": "Goodnight Moon",
+      "author": "Margaret Wise Brown",
+      "price": 200,
+      "category": "Children's Books",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Goodnight Moon.webp"
+    },
+    {
+      "id": "41",
+      "title": "The Cat in the Hat",
+      "author": "Dr. Seuss",
+      "price": 300,
+      "category": "Children's Books",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/The Cat in the Hat.jpg"
+    },{
+      "id": "42",
+      "title": "Green Eggs and Ham",
+      "author": "Dr. Seuss",
+      "price": 280,
+      "category": "Children's Books",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Green Eggs and Ham.jpg"
+    },
+    {
+      "id": "43",
+      "title": "Winnie-the-Pooh",
+      "author": "A.A. Milne",
+      "price": 400,
+      "category": "Children's Books",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Winnie-the-Pooh.jpg"
+    },
+    {
+      "id": "44",
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "price": 380,
+      "category": "Children's Books",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Alice in Wonderland.jpg"
+    },
+    {
+      "id": "45",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "price": 550,
+      "category": "Children's Books",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Harry Potter 1.jpg"
+    },
+    {
+      "id": "46",
+      "title": "Diary of a Wimpy Kid",
+      "author": "Jeff Kinney",
+      "price": 420,
+      "category": "Children's Books",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Diary of a Wimpy Kid.jpg"
+    },
+    {
+      "id": "47",
+      "title": "Dog Man",
+      "author": "Dav Pilkey",
+      "price": 390,
+      "category": "Children's Books",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Dog Man.jpg"
+    },
+    {
+      "id": "48",
+      "title": "The Tale of Peter Rabbit",
+      "author": "Beatrix Potter",
+      "price": 260,
+      "category": "Children's Books",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/The Tale of Peter Rabbit.jpg"
+    },
+    {
+      "id": "49",
+      "title": "The Gruffalo",
+      "author": "Julia Donaldson",
+      "price": 340,
+      "category": "Children's Books",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/The Gruffalo.jpg"
+    },   {
+      "id": "50",
+      "title": "Salt, Fat, Acid, Heat",
+      "author": "Samin Nosrat",
+      "price": 650,
+      "category": "Cookbooks",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Salt Fat Acid Heat.jpeg"
+    },
+    {
+      "id": "51",
+      "title": "The Joy of Cooking",
+      "author": "Irma S. Rombauer",
+      "price": 700,
+      "category": "Cookbooks",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/The Joy of Cooking.jpg"
+    },
+    {
+      "id": "52",
+      "title": "Indian Home Cooking",
+      "author": "Suvir Saran",
+      "price": 550,
+      "category": "Cookbooks",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Indian Home Cooking.jpg"
+    },{
+      "id": "53",
+      "title": "Mastering the Art of French Cooking",
+      "author": "Julia Child",
+      "price": 800,
+      "category": "Cookbooks",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Mastering the Art of French Cooking.jpg"
+    },
+    {
+      "id": "54",
+      "title": "Plenty",
+      "author": "Yotam Ottolenghi",
+      "price": 600,
+      "category": "Cookbooks",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/plenty.jpg"
+    },
+    {
+      "id": "55",
+      "title": "Essentials of Classic Italian Cooking",
+      "author": "Marcella Hazan",
+      "price": 720,
+      "category": "Cookbooks",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Essentials of Classic Italian Cooking.jpg"
+    },
+    {
+      "id": "56",
+      "title": "Thug Kitchen: Eat Like You Give a F*ck",
+      "author": "Thug Kitchen",
+      "price": 500,
+      "category": "Cookbooks",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Thug Kitchen.jpg"
+    },
+    {
+      "id": "57",
+      "title": "Jerusalem: A Cookbook",
+      "author": "Yotam Ottolenghi & Sami Tamimi",
+      "price": 650,
+      "category": "Cookbooks",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Jerusalem A Cookbook.jpg"
+    }
+
+  ],
+  "cart": [
+    {
+      "id": "28",
+      "title": "Kayar",
+      "author": "Thakazhi Sivasankara Pillai",
+      "price": 500,
+      "category": "Fiction",
+      "language": "Malayalam",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/kayar.jpg"
+    },
+    {
+      "id": "29",
+      "title": "Ente Katha",
+      "author": "Kamala Surayya",
+      "price": 300,
+      "category": "Biographies & Autobiographies",
+      "language": "Malayalam",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Ente Katha.jpg"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "1",
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "price": 399,
+      "category": "Fiction",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/the-silent-patient-by-alex-michaelides-celadon-pdf.webp"
+    },
+    {
+      "id": "2",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 450,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/AtomicHabits.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "price": 350,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Rich Dad Poor Dad.webp"
+    },
+    {
+      "id": "12",
+      "title": "Ikigai",
+      "author": "Héctor García",
+      "price": 320,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Ikigai.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "price": 699,
+      "category": "Fiction",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Harry Potter and the Sorcerer's Stone.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "price": 699,
+      "category": "Fiction",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Harry Potter and the Sorcerer's Stone.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "price": 699,
+      "category": "Fiction",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Harry Potter and the Sorcerer's Stone.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "price": 699,
+      "category": "Fiction",
+      "language": "English",
+      "rating": 5,
+      "quantity": 1,
+      "image": "assets/Booksimages/Harry Potter and the Sorcerer's Stone.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "price": 300,
+      "category": "Self-Help",
+      "language": "English",
+      "rating": 4,
+      "quantity": 1,
+      "image": "assets/Booksimages/Think and Grow Rich.jpg"
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "title": "Atomic Habits",
+      "price": 450,
+      "discount": "20%",
+      "image": "assets/Booksimages/AtomicHabits.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Ikigai",
+      "price": 320,
+      "discount": "15%",
+      "image": "assets/Booksimages/Ikigai.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Power of Habit",
+      "price": 420,
+      "discount": "10%",
+      "image": "assets/Booksimages/the power of habit book.png"
+    },
+    {
+      "id": 4,
+      "title": "Rich Dad Poor Dad",
+      "price": 350,
+      "discount": "25%",
+      "image": "assets/Booksimages/Rich Dad Poor Dad.webp"
+    }
+  ]
+}

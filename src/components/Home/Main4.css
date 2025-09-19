@@ -1,0 +1,47 @@
+.book-section {
+    margin: 0;
+    padding: 100px 150px;
+    background: #FFF4E6;   /* soft rose beige background */
+    align-items: center;
+    text-align: center;
+  }
+  
+  .book-section h2 {
+    margin-top: 0px;
+    margin-bottom: 55px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black   /* deep indigo for heading */
+  }
+  
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    gap: 20px;
+    justify-content: center;
+    color: #FFF4E6;
+
+  }
+  
+  .category-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background: #262456;     
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF4E6;            /* text stands out on lavender */
+    transition: all 0.3s ease;
+  }
+  
+  .category-card:hover {
+    background: #201e4a;     /* slate purple on hover */
+    color: #ddc6a9;          /* rose beige text on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+  }
+  

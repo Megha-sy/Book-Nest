@@ -1,0 +1,141 @@
+.new-arrivals {
+  background: #B2A5FF;
+  padding: 80px 100px;
+}
+
+.new-arrivals-section {
+  background: #E5D9F2;
+  text-align: center;
+  padding: 8px 0px 12px;
+  min-height: 50vh;
+  position: relative;
+  margin: 0px 202px;
+  border-radius: 20px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  position: relative;
+}
+
+.book-display {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  max-width: 900px;
+  background: transparent;
+  padding: 20px;
+}
+
+.book-img {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.book-details {
+  text-align: left;
+  color: #222;
+}
+
+.book-details h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.book-details .author,
+.book-details .price,
+.book-details .category,
+.book-details .language,
+.book-details .rating {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.book-details .rating {
+  color: orangered;
+}
+
+.nav-btn {
+  background: #333;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: background 0.3s;
+  z-index: 10;
+}
+
+.nav-btn:hover {
+  background: #555;
+}
+
+.nav-btn.left {
+  position: absolute;
+  left: 0;
+}
+
+.nav-btn.right {
+  position: absolute;
+  right: 0;
+}
+
+.buy-btn1 {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buy-btn1:hover {
+  background: #555;
+}
+
+/* ===== Responsive Styles ===== */
+
+
+@media (max-width: 768px) {
+  .new-arrivals {
+    padding: 40px 20px;
+  }
+
+  .new-arrivals-section {
+    margin: 0 20px;
+    padding: 15px;
+  }
+
+  .book-display {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .book-details {
+    text-align: center;
+  }
+
+  .nav-btn.left {
+    left: 10px;
+  }
+
+  .nav-btn.right {
+    right: 10px;
+  }
+}
+

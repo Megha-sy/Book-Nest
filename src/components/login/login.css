@@ -1,0 +1,105 @@
+/* Full Page Background */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: linear-gradient(135deg,#7A73D1, #493D9E);
+  font-family: 'Poppins', sans-serif;
+  bottom: 30px;
+}
+
+/* Login Box */
+.login-box {
+  background: white;
+  padding:50px 40px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.login-box h2 {
+  margin-bottom: 25px;
+  color: #2A2D7C;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Form Inputs */
+.form-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #4D55CC;
+}
+
+
+
+
+
+/* Buttons */
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.login-btn,
+.cancel-btn {
+  width: 48%;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.login-btn {
+  background: #4D55CC;
+  color: white;
+}
+
+.login-btn:hover {
+  background: #FFD700;
+  color: #2A2D7C;
+  transform: scale(1.05);
+}
+
+.cancel-btn {
+  background: #ccc;
+  color: #333;
+}
+
+.cancel-btn:hover {
+  background: #999;
+  transform: scale(1.05);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
