@@ -6,40 +6,25 @@ function Cart() {
   const [cartItems, setCartItems] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await axios.get("http://localhost:5001/cart/");
-        setCartItems(res.data);
-      } catch (error) {
-        console.error(error);
-      }
-    };
-
-    fetchData();
+    const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
+    setCartItems(storedCart);
+  }, []); 
+   useEffect(() => {
+    const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
+    setCartItems(storedCart);
   }, []);
 
-  const removeFromCart = async (id) => {
-    try {
-      await axios.delete(`http://localhost:5001/cart/${id}`);
-      alert("Removed!");
-      setCartItems(cartItems.filter((item) => item.id !== id));
-    } catch (error) {
-      console.log(error);
-    }
+  const removeFromCart = (id) => {
+    const updatedCart = cartItems.filter((item) => item.id !== id);
+    setCartItems(updatedCart);
+    localStorage.setItem("cart", JSON.stringify(updatedCart));
   };
 
-  const clearCart = async () => {
-    try {
-      await Promise.all(
-        cartItems.map((item) => axios.delete(`http://localhost:5001/cart/${item.id}`))
-      );
-      alert("Removed!");
-      setCartItems([]);
-    } catch (error) {
-      console.log(error);
-    }
+  // 🔹 Clear entire cart
+  const clearCart = () => {
+    setCartItems([]);
+    localStorage.removeItem("cart");
   };
-
   const increment = (id) => {
     setCartItems((cartItems) =>
       cartItems.map((item) =>

@@ -18,8 +18,8 @@ const books = [
   { id: 15, title: "Sapiens: A Brief History of Humankind", author: "Yuval Noah Harari", price: 750, category: "Non-Fiction", language: "English", rating: 5, quantity: 1, image: "assets/Booksimages/A Brief History of Humankind.png" },
   { id: 16, title: "Educated", author: "Tara Westover", price: 500, category: "Biographies & Autobiographies", language: "English", rating: 4, quantity: 1, image: "assets/Booksimages/Educated.webp" },
   { id: 17, title: "Becoming", author: "Michelle Obama", price: 650, category: "Biographies & Autobiographies", language: "English", rating: 5, quantity: 1, image: "assets/Booksimages/Becoming.jpg" },
-  { id: 18, title: "The Midnight Library", author: "Matt Haig", price: 450, category: "Fiction", language: "English", rating: 4, quantity: 1, image: "assets/Booksimages/The-Midnight-Library-By-Matt-Haig.png" },
-  { id: 19, title: "A Promised Land", author: "Barack Obama", price: 799, category: "Biographies & Autobiographies", language: "English", rating: 5, quantity: 1, image: "assets/Booksimages/A Promised Land.png" },
+  { id: 18, title: "The Midnight Library", author: "Matt Haig", price: 450, category: "Fiction", language: "English", rating: 4, quantity: 1, image: "assets/Booksimages/midnight.jpg" },
+  { id: 19, title: "A Promised Land", author: "Barack Obama", price: 799, category: "Biographies & Autobiographies", language: "English", rating: 5, quantity: 1, image: "assets/Booksimages/apromised.webp" },
   { id: 20, title: "The Psychology of Money", author: "Morgan Housel", price: 550, category: "Non-Fiction", language: "English", rating: 5, quantity: 1, image: "assets/Booksimages/The Psychology of Money.png" },
   { id: 21, title: "Man's Search for Meaning", author: "Viktor E. Frankl", price: 370, category: "Non-Fiction", language: "English", rating: 4, quantity: 1, image: "assets/Booksimages/Man's Search for Meaning.webp" },
   { id: 22, title: "Good Vibes, Good Life", author: "Vex King", price: 400, category: "Self-Help", language: "English", rating: 4, quantity: 1, image: "assets/Booksimages/Good Vibes, Good Life.jpg" },
@@ -39,8 +39,8 @@ const books = [
 
   // Academic & Educational
   { id: 34, title: "Introduction to Algorithms", author: "Thomas H. Cormen", price: 1200, category: "Academic & Educational", language: "English", rating: 5, quantity: 1, image: "assets/Booksimages/Introduction to Algorithms.jpg" },
-  { id: 35, title: "Physics for Scientists and Engineers", author: "Raymond A. Serway", price: 950, category: "Academic & Educational", language: "English", rating: 4, quantity: 1, image: "assets/Booksimages/Physics for Scientists and Engineers.jpg" },
-  { id: 36, title: "Advanced Mathematics", author: "R.D. Sharma", price: 800, category: "Academic & Educational", language: "English", rating: 5, quantity: 1, image: "assets/Booksimages/Advanced Mathematics.jpg" },
+  { id: 35, title: "Physics for Scientists and Engineers", author: "Raymond A. Serway", price: 950, category: "Academic & Educational", language: "English", rating: 4, quantity: 1, image: "assets/Booksimages/Physics for Scientists and Engineers.webp" },
+  { id: 36, title: "Advanced Mathematics", author: "R.D. Sharma", price: 800, category: "Academic & Educational", language: "English", rating: 5, quantity: 1, image: "assets/Booksimages/Advanced Mathematics.png" },
 
   // Children's Books
   { id: 37, title: "Charlotte's Web", author: "E.B. White", price: 300, category: "Children's Books", language: "English", rating: 5, quantity: 1, image: "assets/Booksimages/Charlotte's Web.jpg" },

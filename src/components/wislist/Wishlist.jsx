@@ -6,29 +6,21 @@ function Wishlist() {
   const [wishlist, setWishlist] = useState([]);
 
   // Fetch wishlist books
-  useEffect(() => {
-    const fetchWishlist = async () => {
-      try {
-        const res = await axios.get("http://localhost:5001/wishlist");
-        setWishlist(res.data);
-      } catch (err) {
-        console.error("Error fetching wishlist:", err);
-      }
-    };
-    fetchWishlist();
-  }, []);
+ 
+   useEffect(() => {
+      const storedWishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+      setWishlist(storedWishlist);
+    }, []);
 
   // Remove from wishlist
-  const removeFromWishlist = async (bookId) => {
-    try {
-      await axios.delete(`http://localhost:5001/wishlist/${bookId}`);
-      setWishlist((prev) => prev.filter((book) => book.id !== bookId));
-      alert("Removed from wishlist!");
-    } catch (err) {
-      console.error("Error removing from wishlist:", err);
-    }
+  const removeFromWishlist = (id) => {
+    const updatedWishlist = wishlist.filter((item) => item.id !== id);
+    setWishlist(updatedWishlist);
+    localStorage.setItem("wishlist", JSON.stringify(updatedWishlist));
   };
 
+  // 🔹 Clear entire cart
+ 
   return (
     <div className="wishlist-page">
       <h2>❤️ My Wishlist</h2>
