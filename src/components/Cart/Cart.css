@@ -1,0 +1,152 @@
+.cart-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cart-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  color: #333;
+  font-weight: 600;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between; /* pushes content left and counter right */
+  align-items: center;
+  gap: 20px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+
+.cart-item:hover {
+  transform: translateY(-3px);
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.cart-item-content {
+  flex: 1;
+}
+
+.cart-item-content h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  color: #222;
+}
+
+.cart-item-content p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* align inside to the right */
+  gap: 8px;
+  min-width: 120px; /* keeps space consistent */
+}
+.count button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.count button:hover {
+  background: #0056b3;
+}
+
+.count p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.remove-btn {
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.remove-btn:hover{
+  background: #dc2124;
+}
+.cart-footer {
+  display: flex;
+  justify-content: space-between; /* total left, buttons right */
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 2px solid #ddd;
+}
+
+.cart-footer h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.cart-footer .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+
+.clear-btn,
+.buy-btn {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.clear-btn {
+  background: #ff4d4d;
+  color: white;
+}
+
+.clear-btn:hover {
+  background: #cc0000;
+}
+
+.buy-btn {
+  background: #28a745;
+  color: white;
+}
+
+.buy-btn:hover {
+  background: #1e7e34;
+}
